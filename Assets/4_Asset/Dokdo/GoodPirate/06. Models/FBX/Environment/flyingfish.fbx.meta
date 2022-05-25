@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 24bd3263bcf1542a1809e76f47fe1347
+timeCreated: 1549501078
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature.014
+    100002: body
+    100004: Cube.563
+    100006: //RootNode
+    100008: head
+    100010: head_end
+    100012: lwing_0
+    100014: lwing_1
+    100016: lwing_1_end
+    100018: rwing_0
+    100020: rwing_1
+    100022: rwing_1_end
+    400000: Armature.014
+    400002: body
+    400004: Cube.563
+    400006: //RootNode
+    400008: head
+    400010: head_end
+    400012: lwing_0
+    400014: lwing_1
+    400016: lwing_1_end
+    400018: rwing_0
+    400020: rwing_1
+    400022: rwing_1_end
+    4300000: Cube.563
+    7400000: Armature.014|Cube.445Action
+    7400002: Armature.014|flying_fish
+    7400004: Armature.014|Plane.001Action
+    7400006: Armature.014|whale_idle
+    9500000: //RootNode
+    13700000: Cube.563
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.014|Cube.445Action
+      takeName: Armature.014|Cube.445Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.014
+        weight: 1
+      - path: Armature.014/body
+        weight: 1
+      - path: Armature.014/body/head
+        weight: 1
+      - path: Armature.014/body/head/head_end
+        weight: 1
+      - path: Armature.014/body/lwing_0
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1/lwing_1_end
+        weight: 1
+      - path: Armature.014/body/rwing_0
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1/rwing_1_end
+        weight: 1
+      - path: Cube.563
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.014|flying_fish
+      takeName: Armature.014|flying_fish
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.014
+        weight: 1
+      - path: Armature.014/body
+        weight: 1
+      - path: Armature.014/body/head
+        weight: 1
+      - path: Armature.014/body/head/head_end
+        weight: 1
+      - path: Armature.014/body/lwing_0
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1/lwing_1_end
+        weight: 1
+      - path: Armature.014/body/rwing_0
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1/rwing_1_end
+        weight: 1
+      - path: Cube.563
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.014|Plane.001Action
+      takeName: Armature.014|Plane.001Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.014
+        weight: 1
+      - path: Armature.014/body
+        weight: 1
+      - path: Armature.014/body/head
+        weight: 1
+      - path: Armature.014/body/head/head_end
+        weight: 1
+      - path: Armature.014/body/lwing_0
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1/lwing_1_end
+        weight: 1
+      - path: Armature.014/body/rwing_0
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1/rwing_1_end
+        weight: 1
+      - path: Cube.563
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.014|whale_idle
+      takeName: Armature.014|whale_idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.014
+        weight: 1
+      - path: Armature.014/body
+        weight: 1
+      - path: Armature.014/body/head
+        weight: 1
+      - path: Armature.014/body/head/head_end
+        weight: 1
+      - path: Armature.014/body/lwing_0
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1
+        weight: 1
+      - path: Armature.014/body/lwing_0/lwing_1/lwing_1_end
+        weight: 1
+      - path: Armature.014/body/rwing_0
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1
+        weight: 1
+      - path: Armature.014/body/rwing_0/rwing_1/rwing_1_end
+        weight: 1
+      - path: Cube.563
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
