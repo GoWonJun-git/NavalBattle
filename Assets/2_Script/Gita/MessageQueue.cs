@@ -21,6 +21,10 @@ public class MessageQueue : MonoBehaviour
             timer = 2f;
         }
 
+        if (Input.GetKeyDown(KeyCode.Alpha1)) {
+            CreateText("@@@@@@@@");
+        }
+
         if (timer >= 0)
             timer -= Time.deltaTime;
     }
@@ -31,7 +35,7 @@ public class MessageQueue : MonoBehaviour
         Text _text = Instantiate(text, canvas);
         _text.text = str;
         _text.transform.localPosition = new Vector3(0, 350, 0);
-        _text.transform.DOLocalMoveY(_text.transform.localPosition.y +100, 2f);
+        _text.transform.DOLocalMoveY(_text.transform.localPosition.y +50, 2f);
         Destroy(_text.gameObject, 2f);
 
         if (str.Equals("파밍이 종료되었습니다.\n곧 전투가 시작되니 준비하세요."))
